@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Compteur TeamRop
+    body
+        form(method="POST" action="/edit")
+            button(type="submit" name="add_win" value="true") Ajouter une win
+            button(type="submit" name="add_loose" value="true") Ajouter une loose
+            button(type="submit" name="remove_win" value="true") Enlever une win
+            button(type="submit" name="remove_loose" value="true") Enlever une loose
+            button(type="submit" name="reset" value="true") Reset
+        script(src="https://code.jquery.com/jquery-3.3.1.min.js")
+        script(src="js/app.js")

@@ -1,0 +1,16 @@
+{
+    "name": "compteur-team-rop",
+    "version": "1.0.0",
+    "description": "Un compteur pour un fdp.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Maxime6678",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.3",
+        "pug": "^2.0.3",
+        "body-parser": "^1.18.3"
+    }
+}
